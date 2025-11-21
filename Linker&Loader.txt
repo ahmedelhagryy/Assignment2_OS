@@ -1,0 +1,5 @@
+Linker:
+The linker is the program that combines all compiled object files into a single executable and resolves references between functions and variables before the program runs.
+
+Loader:
+The loader is part of the operating system; it loads the executable into memory at runtime, allocates space for code and data, and links any required dynamic libraries so the program can run.
