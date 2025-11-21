@@ -1,15 +1,14 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -g
 
 all: task1 task2 task3
 task1: p.c
-	$(CC) $(CFLAGS)    p.c  -o task1
+	$(CC)    p.c  -o task1
 
 Task2: file 1.c file2.c
-	$(CC) $(CFLAGS)    file 1.c file2.c -o task2
+	$(CC)    file 1.c file2.c -o task2
 
 Task3: simple.c
-	$(CC) $(CFLAGS)    simple.c -o task3
+	$(CC)    simple.c -o task3
 
 clean:
-	rm -rf  task1 task2 task3
+	rm -f  task1 task2 task3
